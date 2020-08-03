@@ -69,8 +69,7 @@ h5 {
   justify-content: center;
   align-items: center;
 }
-.feature-content {
-}
+
 .feature-text {
   font-family: "Indie Flower", cursive;
   font-size: 2rem;
@@ -97,4 +96,20 @@ h5 {
   flex: 1;
   text-align: left;
   padding-left: 1px;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-main {
+    order: -1;
+  }
+  .credit-container .content {
+    flex: 2;
+  }
 }

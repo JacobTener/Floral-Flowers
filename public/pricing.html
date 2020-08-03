@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-pricing.css" />
     <script
       src="https://kit.fontawesome.com/ba48108ed1.js"
       crossorigin="anonymous"
@@ -19,7 +19,7 @@
     <!-- Navbar with toggle button. Toggle handled in main.js -->
     <div class="container nav-container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand pb-0" href="#"
+        <a class="navbar-brand pb-0" href="./index.html"
           ><img
             style="height: 40px; padding-bottom: 4px;"
             src="https://img.icons8.com/doodle/48/000000/flower--v1.png"
@@ -41,13 +41,13 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home </a>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+                >Pricing <span class="sr-only">(current)</span></a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">About</a>
@@ -59,70 +59,56 @@
         </div>
       </nav>
     </div>
+
+      
     <!-- Bootswatch css template body -->
-    <div class="showcase p-5">
       <div class="container">
+        
         <div class="row">
           <div class="col-md-6 m-auto text-center">
-            <h1 class="display-3">Fresh Flowers!</h1>
-            <p class="lead">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-              sequi nemo eos molestias provident ex dolor voluptas adipisci quos
-              aut!
-            </p>
-            <hr class="my-4" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              ipsa autem earum soluta beatae!
-            </p>
-          </div>
+           
           <div class="col-md-6 m-auto text-center">
-            <img class="showcase-flowers" src="./img/rose.jpg" alt="flowers" />
+            
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="feature-sections-container">
-      <section class="section control-bar py-1">
+    <div class="container feature-sections-container ">
+      <section class="section control-bar py-1 mb-3">
+       
         <ul class="control-list list-group">
+          <li class="mr-auto p-1"><h3>Single/Bouquet Pricing</h3></li>
           <li class="list-item btn btn-link active"><a href="#">Roses</a></li>
           <li class="list-item btn btn-link"><a href="#">Lillies</a></li>
           <li class="list-item btn btn-link"><a href="#">Daisies</a></li>
+          <li class="list-item btn btn-link"><a href="#">Sunflowers</a></li>
+          <li class="list-item btn btn-link"><a href="#">Tulips</a></li>
+          <li class="list-item btn btn-link"><a href="#">Carnations</a></li>
         </ul>
       </section>
-      <section class="section info py-2">
-        <div class="container feature-container my-5">
-          <div class="feature-main feature-left">
+      <section class="row section info py-2">
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
             <img
               class="showcase-flowers"
               src="./img/rosebouquet.jpg"
               alt="flowers"
             />
           </div>
-          <div class="feature-right">
+          <div class="feature-bottom">
             <div class="feature-content p-5">
               <h3 class="feature-text">Roses</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
+                necessitatibus adipisci tempore?
               </p>
+              <h5>$20</h5>
             </div>
           </div>
         </div>
-        <div class="container feature-container my-5">
-          <div class="feature-left">
-            <div class="feature-content p-5">
-              <h3 class="feature-text">Lillies</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
-              </p>
-            </div>
-          </div>
-          <div class="feature-main feature-right">
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
             <img
               class="showcase-flowers"
               style="width: 400px; height: auto;"
@@ -130,9 +116,23 @@
               alt="flowers"
             />
           </div>
+          <div class="feature-bottom">
+            <div class="feature-content p-5">
+              <h3 class="feature-text">Lillies</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                necessitatibus adipisci tempore?
+              </p>
+              <h5>$25</h5>
+            </div>
+          </div>
+          
         </div>
-        <div class="container feature-container my-5">
-          <div class="feature-main feature-left">
+        </section>
+        <section class="row section info py-2">
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
             <img
               class="showcase-flowers"
               style="width: 400px; height: auto;"
@@ -140,14 +140,80 @@
               alt="flowers"
             />
           </div>
-          <div class="feature-right">
+          <div class="feature-bottom">
             <div class="feature-content p-5">
               <h3 class="feature-text">Daisies</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
+                necessitatibus adipisci tempore?
               </p>
+              <h5>$30</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
+            <img
+              class="showcase-flowers"
+              style="width: auto; height: 400px;"
+              src="./img/sunflowers.jpg"
+              alt="flowers"
+            />
+          </div>
+          <div class="feature-bottom">
+            <div class="feature-content p-5">
+              <h3 class="feature-text">Sunflowers</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                necessitatibus adipisci tempore?
+              </p>
+              <h5>$700</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row section info py-2">
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
+            <img
+              class="showcase-flowers"
+              style="width: auto; height: 400px;"
+              src="./img/tulips.jpg"
+              alt="flowers"
+            />
+          </div>
+          <div class="feature-bottom">
+            <div class="feature-content p-5">
+              <h3 class="feature-text">Tulips</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                necessitatibus adipisci tempore?
+              </p>
+              <h5>$35</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-auto text-center feature-container my-5">
+          <div class="feature-top">
+            <img
+              class="showcase-flowers"
+              style="width: 400px; height: auto;"
+              src="./img/carnations.jpg"
+              alt="flowers"
+            />
+          </div>
+          <div class="feature-bottom">
+            <div class="feature-content p-5">
+              <h3 class="feature-text">Carnations</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                necessitatibus adipisci tempore?
+              </p>
+              <h5>$25</h5>
             </div>
           </div>
         </div>
@@ -156,40 +222,6 @@
 
     <footer class="footer">
       <div class="container text-center p-2 mb-0">
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Navbar:</p>
-          </div>
-          <div class="content">
-            <a href="https://icons8.com/icon/18050/flower"
-              >Flower icon by Icons8</a
-            >
-          </div>
-        </div>
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Showcase:</p>
-          </div>
-          <div class="content">
-            <a href="https://www.svgbackgrounds.com/"
-              >Background by SVG Backgrounds</a
-            ><br />
-            Rose Photo by
-            <a
-              href="https://unsplash.com/@edwardhowellphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Edward Howell</a
-            >
-            on
-            <a
-              href="https://unsplash.com/s/photos/rose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            >
-          </div>
-        </div>
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Feature:</p>
-          </div>
           <div class="content">
             Rose Bouquet Photo by
             <a
@@ -220,10 +252,11 @@
             <a
               href="https://unsplash.com/s/photos/daisies-in-a-vase?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
               >Unsplash</a
-            >
-          </div>
+            ><br />
+            Sunflower Bouquet Photo by <a href="https://unsplash.com/@hmh892001?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hoang Minh Hai</a> on <a href="https://unsplash.com/s/photos/sunflower-bouquet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a><br />
+            Tulips Photo by <a href="https://unsplash.com/@thesollers?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anton Darius</a> on <a href="https://unsplash.com/s/photos/tulips?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a><br />
+            Carnations Photo by <a href="https://unsplash.com/@mainpdhm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mai Pham Ngoc</a> on <a href="https://unsplash.com/s/photos/carnations?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a><br />
         </div>
-        <p class="m-0"></p>
         <hr />
         <p class="m-2">
           Floral Flowers Copyright &copy; 2020
