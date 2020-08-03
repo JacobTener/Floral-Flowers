@@ -1,0 +1,18 @@
+{
+  "name": "companylandingpage",
+  "version": "1.0.0",
+  "description": "practice site for company",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main.js"
+  },
+  "author": "Jake Tener",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
