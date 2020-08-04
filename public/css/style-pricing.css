@@ -48,6 +48,7 @@ h5 {
 .feature-container {
   display: flex;
   flex-direction: column;
+  padding-top: 2rem;
 }
 
 .feature-top {
@@ -57,7 +58,7 @@ h5 {
   align-items: center;
 }
 
-.feature-right {
+.feature-bottom {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -68,6 +69,7 @@ h5 {
   font-family: "Indie Flower", cursive;
   font-size: 2rem;
 }
+
 .footer {
   border-top: rgb(238, 232, 232) 1px solid;
   background: rgb(245, 243, 243);
@@ -105,5 +107,23 @@ h5 {
   }
   .credit-container .content {
     flex: 2;
+  }
+  .control-list {
+    margin: auto;
+    padding: auto;
+  }
+}
+
+@media (max-width: 1020px) {
+  body {
+  }
+  #list-title span {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .control-list {
+    flex-wrap: wrap;
   }
 }

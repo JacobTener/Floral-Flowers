@@ -6,7 +6,8 @@ h4,
 h5 {
   margin: 0;
 }
-
+body {
+}
 /* Attempting to fix navbar
 .nav-container {
   position: fixed;
@@ -40,57 +41,21 @@ h5 {
   margin: 0.4rem;
 }
 
-.control-bar {
-  text-align: center;
-  background: rgb(245, 243, 243);
-}
-.control-list {
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-}
-
-.control-list ul {
-  padding: 2rem;
-}
-
-.control-list li {
-  padding: 0.3rem 3rem;
-}
-
-.control-list a {
-  color: black;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.control-list a:hover {
-  opacity: 0.9;
-}
-
-.feature-container {
-  display: flex;
-  padding-top: 2rem;
-}
-
-.feature-left {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.feature-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .feature-text {
+  font-size: 1.5rem;
+}
+.form-group input,
+.form-group textarea {
+  padding: 0.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
   font-family: "Indie Flower", cursive;
-  font-size: 2rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  background: rgb(250, 201, 218);
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .footer {
   border-top: rgb(238, 232, 232) 1px solid;

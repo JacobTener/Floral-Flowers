@@ -53,7 +53,7 @@
               <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contatct.html">Contact</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -82,154 +82,169 @@
         </div>
       </div>
     </div>
-
-    <div class="feature-sections-container">
-      <section class="section control-bar py-1">
-        <ul class="control-list list-group">
-          <li class="list-item btn btn-link active"><a href="#">Roses</a></li>
-          <li class="list-item btn btn-link"><a href="#">Lillies</a></li>
-          <li class="list-item btn btn-link"><a href="#">Daisies</a></li>
-        </ul>
-      </section>
-      <section class="section info py-2">
-        <div class="container feature-container my-5">
-          <div class="feature-main feature-left">
-            <img
-              class="showcase-flowers"
-              src="./img/rosebouquet.jpg"
-              alt="flowers"
-            />
-          </div>
-          <div class="feature-right">
-            <div class="feature-content p-5">
-              <h3 class="feature-text">Roses</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
-              </p>
+    <div class="full-container">
+      <div class="feature-sections-container">
+        <section class="section control-bar py-1">
+          <ul class="control-list list-group">
+            <!-- TODO: Li's can be pressed without triggering link -->
+            <!-- Bootstrap nav-item/nav-link included to flush out above issue -->
+            <li class="nav-item list-item btn btn-link active" id="roses-link">
+              <a class="nav-link" href="#feature-roses">Roses</a>
+            </li>
+            <li
+              class="nav-item list-itemfeature- btn btn-link"
+              id="lillies-link"
+            >
+              <a class="nav-link" href="#feature-lillies">Lillies</a>
+            </li>
+            <li
+              class="nav-item list-itemfeature- btn btn-link"
+              id="daisies-link"
+            >
+              <a class="nav-link" href="#feature-daisies">Daisies</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section info py-2">
+          <div class="container feature-container my-5" id="feature-roses">
+            <div class="feature-main feature-left">
+              <img
+                class="showcase-flowers"
+                src="./img/rosebouquet.jpg"
+                alt="flowers"
+              />
+            </div>
+            <div class="feature-right">
+              <div class="feature-content p-5">
+                <h3 class="feature-text">Roses</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                  necessitatibus adipisci tempore? Nulla, rem?
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="container feature-container my-5">
-          <div class="feature-left">
-            <div class="feature-content p-5">
-              <h3 class="feature-text">Lillies</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
-              </p>
+          <div class="container feature-container my-5" id="feature-lillies">
+            <div class="feature-left">
+              <div class="feature-content p-5">
+                <h3 class="feature-text">Lillies</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                  necessitatibus adipisci tempore? Nulla, rem?
+                </p>
+              </div>
+            </div>
+            <div class="feature-main feature-right">
+              <img
+                class="showcase-flowers"
+                style="width: 400px; height: auto;"
+                src="./img/lilyBouquet.jpg"
+                alt="flowers"
+              />
             </div>
           </div>
-          <div class="feature-main feature-right">
-            <img
-              class="showcase-flowers"
-              style="width: 400px; height: auto;"
-              src="./img/lilyBouquet.jpg"
-              alt="flowers"
-            />
-          </div>
-        </div>
-        <div class="container feature-container my-5">
-          <div class="feature-main feature-left">
-            <img
-              class="showcase-flowers"
-              style="width: 400px; height: auto;"
-              src="./img/daisies.jpg"
-              alt="flowers"
-            />
-          </div>
-          <div class="feature-right">
-            <div class="feature-content p-5">
-              <h3 class="feature-text">Daisies</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda mollitia, voluptatem obcaecati eum molestiae alias
-                necessitatibus adipisci tempore? Nulla, rem?
-              </p>
+          <div class="container feature-container my-5" id="feature-daisies">
+            <div class="feature-main feature-left">
+              <img
+                class="showcase-flowers"
+                style="width: 400px; height: auto;"
+                src="./img/daisies.jpg"
+                alt="flowers"
+              />
+            </div>
+            <div class="feature-right">
+              <div class="feature-content p-5">
+                <h3 class="feature-text">Daisies</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda mollitia, voluptatem obcaecati eum molestiae alias
+                  necessitatibus adipisci tempore? Nulla, rem?
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-
-    <footer class="footer">
-      <div class="container text-center p-2 mb-0">
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Navbar:</p>
-          </div>
-          <div class="content">
-            <a href="https://icons8.com/icon/18050/flower"
-              >Flower icon by Icons8</a
-            >
-          </div>
-        </div>
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Showcase:</p>
-          </div>
-          <div class="content">
-            <a href="https://www.svgbackgrounds.com/"
-              >Background by SVG Backgrounds</a
-            ><br />
-            Rose Photo by
-            <a
-              href="https://unsplash.com/@edwardhowellphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Edward Howell</a
-            >
-            on
-            <a
-              href="https://unsplash.com/s/photos/rose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            >
-          </div>
-        </div>
-        <div class="credit-container">
-          <div class="title">
-            <p class="m-0">Feature:</p>
-          </div>
-          <div class="content">
-            Rose Bouquet Photo by
-            <a
-              href="https://unsplash.com/@i_story_pictures?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Yuliya Pankevich</a
-            >
-            on
-            <a
-              href="https://unsplash.com/s/photos/rose-bouquet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            ><br />
-            Lily Bouquet Photo by
-            <a
-              href="https://unsplash.com/@condorito1953?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Arie Wubben</a
-            >
-            on
-            <a
-              href="https://unsplash.com/s/photos/lily-buquet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            ><br />
-            Daisies Photo by
-            <a
-              href="https://unsplash.com/@pinmav?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Pinar Mavi</a
-            >
-            on
-            <a
-              href="https://unsplash.com/s/photos/daisies-in-a-vase?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            >
-          </div>
-        </div>
-        <p class="m-0"></p>
-        <hr />
-        <p class="m-2">
-          Floral Flowers Copyright &copy; 2020
-        </p>
+        </section>
       </div>
-    </footer>
+
+      <footer class="footer">
+        <div class="container text-center p-2 mb-0">
+          <div class="credit-container">
+            <div class="title">
+              <p class="m-0">Navbar:</p>
+            </div>
+            <div class="content">
+              <a href="https://icons8.com/icon/18050/flower"
+                >Flower icon by Icons8</a
+              >
+            </div>
+          </div>
+          <div class="credit-container">
+            <div class="title">
+              <p class="m-0">Showcase:</p>
+            </div>
+            <div class="content">
+              <a href="https://www.svgbackgrounds.com/"
+                >Background by SVG Backgrounds</a
+              ><br />
+              Rose Photo by
+              <a
+                href="https://unsplash.com/@edwardhowellphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Edward Howell</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/rose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </div>
+          </div>
+          <div class="credit-container">
+            <div class="title">
+              <p class="m-0">Feature:</p>
+            </div>
+            <div class="content">
+              Rose Bouquet Photo by
+              <a
+                href="https://unsplash.com/@i_story_pictures?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Yuliya Pankevich</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/rose-bouquet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              ><br />
+              Lily Bouquet Photo by
+              <a
+                href="https://unsplash.com/@condorito1953?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Arie Wubben</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/lily-buquet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              ><br />
+              Daisies Photo by
+              <a
+                href="https://unsplash.com/@pinmav?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Pinar Mavi</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/daisies-in-a-vase?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </div>
+          </div>
+          <p class="m-0"></p>
+          <hr />
+          <p class="m-2">
+            Floral Flowers Copyright &copy; 2020
+          </p>
+        </div>
+      </footer>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
